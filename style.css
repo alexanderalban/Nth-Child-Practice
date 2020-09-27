@@ -1,0 +1,29 @@
+table, th, td {
+    border: pt solid white;
+    text-align: center;
+}
+
+th, td {
+    width: 26pt;
+    height: 26pt;
+}
+
+th {
+    background-color: rgb(166,206,56);
+    font-size: 21pt;
+    color: white;
+
+}
+
+td {
+    font-size: 16pt;
+    color: rgb(68,160,162);
+}
+
+td:nth-child(odd) {
+    background-color: rgb(195,229,231);
+}
+
+td:nth-child(even) {
+    background-color: rgb(218,239,240);
+}
